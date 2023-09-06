@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  position: fixed;
+  height:100vh;
+  width: 100%;
+  border: 1px solid black;
+  background-image: url(image/portfolio.jpg);
+  background-repeat: no-repeat;
+  background-size: 120%;
+  border: 5px solid rgb(3, 75, 108);
+  
+}
+
+.container1 {
+  position: fixed;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container2 {
+  height: 65vh;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.temp {
+  background: linear-gradient(45deg, black, transparent);
+  height: 50vh;
+  width: 50%;
+  border: 1px solid rgb(8, 0, 255);
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 5px;
+}
+h1 {
+  color: cadetblue;
+  flex-basis: 32%;
+  text-align: center;
+  font-size: xx-large;
+}
+.title {
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+  box-shadow: 5px 5px 2px;
+}
+
+.temperature-icon {
+  font-size: 45px;
+  color: aqua;
+}
+
+.Celsius,
+.Fahrenheit,
+.Kelvin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+
+input {
+  /* flex: 5; */
+  height: 50px;
+  font-size: 18px;
+  text-align: center;
+  border: none;
+  outline: none;
+  border-radius: 7px 0 0 7px;
+  padding: 0 10px;
+}
+
+.icon {
+  height: 50px;
+  /* border: 2px solid black; */
+  padding: 0 25px;
+  text-align: center;
+  font-size: 30px;
+  background: #089dee;
+  color: aliceblue;
+  border-radius: 0 7px 7px 0;
+  
+}
+.button1 {
+  margin-top: 25px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.button button {
+  /* border: 2px solid black; */
+  font-size: 18px;
+  padding: 10px 30px;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px 0px;
+}
+button:hover {
+  background-color: aqua;
+}
